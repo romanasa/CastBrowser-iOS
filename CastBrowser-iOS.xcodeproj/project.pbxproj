@@ -1,0 +1,568 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		3028C2152DF5E93600F2CE4E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3028C1F62DF5E93400F2CE4E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3028C1FD2DF5E93400F2CE4E;
+			remoteInfo = "CastBrowser-iOS";
+		};
+		3028C21F2DF5E93600F2CE4E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3028C1F62DF5E93400F2CE4E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3028C1FD2DF5E93400F2CE4E;
+			remoteInfo = "CastBrowser-iOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3028C1FE2DF5E93400F2CE4E /* CastBrowser-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CastBrowser-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3028C2142DF5E93600F2CE4E /* CastBrowser-iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CastBrowser-iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3028C21E2DF5E93600F2CE4E /* CastBrowser-iOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CastBrowser-iOSUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		3028C2262DF5E93600F2CE4E /* Exceptions for "CastBrowser-iOS" folder in "CastBrowser-iOS" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 3028C1FD2DF5E93400F2CE4E /* CastBrowser-iOS */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		3028C2002DF5E93400F2CE4E /* CastBrowser-iOS */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				3028C2262DF5E93600F2CE4E /* Exceptions for "CastBrowser-iOS" folder in "CastBrowser-iOS" target */,
+			);
+			path = "CastBrowser-iOS";
+			sourceTree = "<group>";
+		};
+		3028C2172DF5E93600F2CE4E /* CastBrowser-iOSTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "CastBrowser-iOSTests";
+			sourceTree = "<group>";
+		};
+		3028C2212DF5E93600F2CE4E /* CastBrowser-iOSUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "CastBrowser-iOSUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3028C1FB2DF5E93400F2CE4E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3028C2112DF5E93600F2CE4E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3028C21B2DF5E93600F2CE4E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3028C1F52DF5E93400F2CE4E = {
+			isa = PBXGroup;
+			children = (
+				3028C2002DF5E93400F2CE4E /* CastBrowser-iOS */,
+				3028C2172DF5E93600F2CE4E /* CastBrowser-iOSTests */,
+				3028C2212DF5E93600F2CE4E /* CastBrowser-iOSUITests */,
+				3028C1FF2DF5E93400F2CE4E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3028C1FF2DF5E93400F2CE4E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3028C1FE2DF5E93400F2CE4E /* CastBrowser-iOS.app */,
+				3028C2142DF5E93600F2CE4E /* CastBrowser-iOSTests.xctest */,
+				3028C21E2DF5E93600F2CE4E /* CastBrowser-iOSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3028C1FD2DF5E93400F2CE4E /* CastBrowser-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3028C2272DF5E93600F2CE4E /* Build configuration list for PBXNativeTarget "CastBrowser-iOS" */;
+			buildPhases = (
+				3028C1FA2DF5E93400F2CE4E /* Sources */,
+				3028C1FB2DF5E93400F2CE4E /* Frameworks */,
+				3028C1FC2DF5E93400F2CE4E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				3028C2002DF5E93400F2CE4E /* CastBrowser-iOS */,
+			);
+			name = "CastBrowser-iOS";
+			packageProductDependencies = (
+			);
+			productName = "CastBrowser-iOS";
+			productReference = 3028C1FE2DF5E93400F2CE4E /* CastBrowser-iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3028C2132DF5E93600F2CE4E /* CastBrowser-iOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3028C22C2DF5E93600F2CE4E /* Build configuration list for PBXNativeTarget "CastBrowser-iOSTests" */;
+			buildPhases = (
+				3028C2102DF5E93600F2CE4E /* Sources */,
+				3028C2112DF5E93600F2CE4E /* Frameworks */,
+				3028C2122DF5E93600F2CE4E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3028C2162DF5E93600F2CE4E /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				3028C2172DF5E93600F2CE4E /* CastBrowser-iOSTests */,
+			);
+			name = "CastBrowser-iOSTests";
+			packageProductDependencies = (
+			);
+			productName = "CastBrowser-iOSTests";
+			productReference = 3028C2142DF5E93600F2CE4E /* CastBrowser-iOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3028C21D2DF5E93600F2CE4E /* CastBrowser-iOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3028C22F2DF5E93600F2CE4E /* Build configuration list for PBXNativeTarget "CastBrowser-iOSUITests" */;
+			buildPhases = (
+				3028C21A2DF5E93600F2CE4E /* Sources */,
+				3028C21B2DF5E93600F2CE4E /* Frameworks */,
+				3028C21C2DF5E93600F2CE4E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3028C2202DF5E93600F2CE4E /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				3028C2212DF5E93600F2CE4E /* CastBrowser-iOSUITests */,
+			);
+			name = "CastBrowser-iOSUITests";
+			packageProductDependencies = (
+			);
+			productName = "CastBrowser-iOSUITests";
+			productReference = 3028C21E2DF5E93600F2CE4E /* CastBrowser-iOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3028C1F62DF5E93400F2CE4E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					3028C1FD2DF5E93400F2CE4E = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					3028C2132DF5E93600F2CE4E = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 3028C1FD2DF5E93400F2CE4E;
+					};
+					3028C21D2DF5E93600F2CE4E = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 3028C1FD2DF5E93400F2CE4E;
+					};
+				};
+			};
+			buildConfigurationList = 3028C1F92DF5E93400F2CE4E /* Build configuration list for PBXProject "CastBrowser-iOS" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3028C1F52DF5E93400F2CE4E;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 3028C1FF2DF5E93400F2CE4E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3028C1FD2DF5E93400F2CE4E /* CastBrowser-iOS */,
+				3028C2132DF5E93600F2CE4E /* CastBrowser-iOSTests */,
+				3028C21D2DF5E93600F2CE4E /* CastBrowser-iOSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3028C1FC2DF5E93400F2CE4E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3028C2122DF5E93600F2CE4E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3028C21C2DF5E93600F2CE4E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3028C1FA2DF5E93400F2CE4E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3028C2102DF5E93600F2CE4E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3028C21A2DF5E93600F2CE4E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3028C2162DF5E93600F2CE4E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3028C1FD2DF5E93400F2CE4E /* CastBrowser-iOS */;
+			targetProxy = 3028C2152DF5E93600F2CE4E /* PBXContainerItemProxy */;
+		};
+		3028C2202DF5E93600F2CE4E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3028C1FD2DF5E93400F2CE4E /* CastBrowser-iOS */;
+			targetProxy = 3028C21F2DF5E93600F2CE4E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3028C2282DF5E93600F2CE4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "CastBrowser-iOS/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.CastBrowser-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3028C2292DF5E93600F2CE4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "CastBrowser-iOS/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.CastBrowser-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3028C22A2DF5E93600F2CE4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3028C22B2DF5E93600F2CE4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3028C22D2DF5E93600F2CE4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.CastBrowser-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CastBrowser-iOS.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CastBrowser-iOS";
+			};
+			name = Debug;
+		};
+		3028C22E2DF5E93600F2CE4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.CastBrowser-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CastBrowser-iOS.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CastBrowser-iOS";
+			};
+			name = Release;
+		};
+		3028C2302DF5E93600F2CE4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.CastBrowser-iOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "CastBrowser-iOS";
+			};
+			name = Debug;
+		};
+		3028C2312DF5E93600F2CE4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.CastBrowser-iOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "CastBrowser-iOS";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3028C1F92DF5E93400F2CE4E /* Build configuration list for PBXProject "CastBrowser-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3028C22A2DF5E93600F2CE4E /* Debug */,
+				3028C22B2DF5E93600F2CE4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3028C2272DF5E93600F2CE4E /* Build configuration list for PBXNativeTarget "CastBrowser-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3028C2282DF5E93600F2CE4E /* Debug */,
+				3028C2292DF5E93600F2CE4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3028C22C2DF5E93600F2CE4E /* Build configuration list for PBXNativeTarget "CastBrowser-iOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3028C22D2DF5E93600F2CE4E /* Debug */,
+				3028C22E2DF5E93600F2CE4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3028C22F2DF5E93600F2CE4E /* Build configuration list for PBXNativeTarget "CastBrowser-iOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3028C2302DF5E93600F2CE4E /* Debug */,
+				3028C2312DF5E93600F2CE4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3028C1F62DF5E93400F2CE4E /* Project object */;
+}
