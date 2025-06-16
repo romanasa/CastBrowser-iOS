@@ -2,35 +2,57 @@
 //  AppDelegate.swift
 //  CastBrowser-iOS
 //
-//  Created by Роман Коробков on 08.06.2025.
+//  Created by Claude Code on 08.06.2025.
 //
 
 import UIKit
+#if !targetEnvironment(simulator) || !arch(x86_64)
+import GoogleCast
+#endif
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
-
-
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        
+        #if !targetEnvironment(simulator) || !arch(x86_64)
+        // Configure Google Cast (disabled for x86_64 simulator due to Protobuf compatibility)
+        do {
+            let castOptions = GCKCastOptions(discoveryCriteria: GCKDiscoveryCriteria(applicationID: kGCKDefaultMediaReceiverApplicationID))
+            castOptions.physicalVolumeButtonsWillControlDeviceVolume = true
+            
+            GCKCastContext.setSharedInstanceWith(castOptions)
+            
+            // Style the cast button
+            GCKUICastButton.appearance().tintColor = UIColor.systemBlue
+            
+            print("✅ Cast SDK initialized successfully")
+        } catch {
+            print("❌ Failed to initialize Cast SDK: \(error)")
+            // Don't crash the app if Cast initialization fails
+        }
+        #endif
+        
         return true
     }
 
     // MARK: UISceneSession Lifecycle
 
     func application(_ application: UIApplication, configurationForConnecting connectingSceneSession: UISceneSession, options: UIScene.ConnectionOptions) -> UISceneConfiguration {
-        // Called when a new scene session is being created.
-        // Use this method to select a configuration to create the new scene with.
         return UISceneConfiguration(name: "Default Configuration", sessionRole: connectingSceneSession.role)
     }
 
     func application(_ application: UIApplication, didDiscardSceneSessions sceneSessions: Set<UISceneSession>) {
-        // Called when the user discards a scene session.
-        // If any sessions were discarded while the application was not running, this will be called shortly after application:didFinishLaunchingWithOptions.
-        // Use this method to release any resources that were specific to the discarded scenes, as they will not return.
     }
-
-
+    
+    // MARK: URL Scheme Support
+    
+    func application(_ app: UIApplication, open url: URL, options: [UIApplication.OpenURLOptionsKey : Any] = [:]) -> Bool {
+        // Handle castbrowser:// URL scheme
+        if url.scheme == "castbrowser" {
+            // You can add custom URL handling logic here
+            return true
+        }
+        return false
+    }
 }
-
