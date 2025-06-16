@@ -13,13 +13,10 @@ jobs:
     steps:
     - uses: actions/checkout@v4
     
-    - name: Install CocoaPods
+    - name: Install dependencies  
       run: |
         sudo gem install cocoapods
-        pod --version
-    
-    - name: Install dependencies  
-      run: pod install
+        pod install --verbose
     
     - name: List schemes
       run: xcodebuild -workspace CastBrowser-iOS.xcworkspace -list
