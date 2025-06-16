@@ -1,0 +1,28 @@
+name: iOS CI
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  build:
+    runs-on: macos-latest
+
+    steps:
+    - uses: actions/checkout@v4
+    
+    - name: Setup CocoaPods
+      uses: maxim-lobanov/setup-cocoapods@v1
+      with:
+        version: latest
+    
+    - name: Install dependencies
+      run: pod install
+    
+    - name: Build
+      run: xcodebuild -workspace CastBrowser-iOS.xcworkspace -scheme CastBrowser-iOS -destination 'platform=iOS Simulator,name=iPhone 16' build
+    
+    - name: Run tests
+      run: xcodebuild test -workspace CastBrowser-iOS.xcworkspace -scheme CastBrowser-iOS -destination 'platform=iOS Simulator,name=iPhone 16'
