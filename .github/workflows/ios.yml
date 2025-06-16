@@ -8,17 +8,17 @@ on:
 
 jobs:
   build:
-    runs-on: macos-15
+    runs-on: macos-latest
 
     steps:
     - uses: actions/checkout@v4
     
-    - name: Setup CocoaPods
-      uses: maxim-lobanov/setup-cocoapods@v1
-      with:
-        version: latest
+    - name: Install CocoaPods
+      run: |
+        sudo gem install cocoapods
+        pod --version
     
-    - name: Install dependencies
+    - name: Install dependencies  
       run: pod install
     
     - name: List schemes
